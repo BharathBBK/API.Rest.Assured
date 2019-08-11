@@ -22,7 +22,7 @@ public class RestAssuredDemo {
 		
 	}
 	
-<<<<<<< HEAD
+
 	public void post_Method() {
 		System.out.println("add post method");
 	}
@@ -43,5 +43,5 @@ public class RestAssuredDemo {
 >>>>>>> 3c4174097f33da30bffb66f23670852348b135b5
 		RestAssuredDemo.getCall();
 		}
-
+*/
 }
