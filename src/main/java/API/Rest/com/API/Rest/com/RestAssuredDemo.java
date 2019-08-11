@@ -15,7 +15,7 @@ public class RestAssuredDemo {
 				.then().extract().response().body();
 		System.out.println("Response \n" + re.asString());
 		String connID = re.jsonPath().get("lstGatewayConnection[0].BrokerCalculationTime");
-       // String connID1 = re.jsonPath().get("lstGatewayConnection.BrokerCalculationTime");
+        String connID1 = re.jsonPath().get("lstGatewayConnection.BrokerCalculationTime");
 		
 		System.out.println(connID); 
 		
