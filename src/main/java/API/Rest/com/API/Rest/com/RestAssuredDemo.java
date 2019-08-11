@@ -17,8 +17,13 @@ public class RestAssuredDemo {
 		String connID = re.jsonPath().get("lstGatewayConnection[0].BrokerCalculationTime");
         String connID1 = re.jsonPath().get("lstGatewayConnection.BrokerCalculationTime");
 		
-		System.out.println(connID); 
+		System.out.println(connID);
 		
+		
+	}
+	
+	public void post_method() {
+		System.out.println("add post method");
 	}
 	
 	/*public static void main (String[]args) {
