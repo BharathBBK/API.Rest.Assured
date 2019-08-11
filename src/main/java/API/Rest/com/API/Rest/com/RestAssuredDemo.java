@@ -31,17 +31,11 @@ public class RestAssuredDemo {
 		System.out.println("add post method");
 	}
 	
-	
-	/*public static void main (String[]args) {
-=======
-	
 	public void post_method() {
 		System.out.println("add post method");
 	}
 	
 	public static void main (String[]args) {
->>>>>>> 3c4174097f33da30bffb66f23670852348b135b5
-		RestAssuredDemo.getCall();
-		}
-*/
+
+}
 }
