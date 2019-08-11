@@ -22,9 +22,14 @@ public class RestAssuredDemo {
 		
 	}
 	
-	public void post_method() {
+	public void post_Method() {
 		System.out.println("add post method");
 	}
+	
+	public void get_Method() {
+		System.out.println("add post method");
+	}
+	
 	
 	/*public static void main (String[]args) {
 		RestAssuredDemo.getCall();
